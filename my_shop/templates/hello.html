@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block title %}Мэндчилгээ{% endblock %}{% block content %}<section class="container py-5">{% if name %}<h1>Сайн уу, {{ name }}!</h1>{% else %}<h1>Сайн уу, дэлхий!</h1>{% endif %}<p>Flask-аас HTML рүү нэр дамжуулах жишээ.</p><a class="btn btn-dark" href="{{ url_for('hello', name='Bat') }}">Bat нэрээр турших</a></section>{% endblock %}

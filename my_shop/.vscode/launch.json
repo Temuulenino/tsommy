@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flask laboratory",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/lab8.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
